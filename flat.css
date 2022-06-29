@@ -1,0 +1,92 @@
+.filament-sidebar {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.filament-sidebar-header, .filament-main-topbar {
+    background: white !important;
+}
+
+.filament-main-topbar .filament-global-search + div button + div {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.filament-main {
+    overflow-y: hidden;
+}
+
+.filament-main-topbar .filament-global-search + div button + div ul {
+    border-radius: 2px;
+}
+
+.filament-sidebar-nav > ul > li:not(.filament-sidebar-group) {
+    display: none !important;
+}
+
+.filament-sidebar-nav .filament-sidebar-item a {
+    border-radius: 2px;
+}
+
+.filament-sidebar-nav .filament-sidebar-item .bg-primary-500 {
+    background: rgba(0, 0, 0, 0.05) !important;
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.filament-sidebar-nav .filament-sidebar-item .bg-primary-500 span:nth-of-type(2n) {
+    background: rgba(0, 0, 0, 0.1) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: 700 !important;
+}
+
+.filament-sidebar-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.filament-sidebar-nav {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.filament-widget div {
+    border-radius: 2px;
+}
+
+textarea.filament-forms-textarea-component,
+.filament-forms-text-input-component input,
+.filament-forms-markdown-editor-component textarea,
+.filament-forms-markdown-editor-component div:nth-of-type(3n),
+button.filament-forms-markdown-editor-component-toolbar-button,
+div.filament-forms-card-component,
+.filament-forms-file-upload-component .filepond--panel-root,
+input[type="checkbox"].filament-forms-checkbox-component,
+.filament-forms-select-component .choices__inner,
+.filament-forms-select-component .choices__list.choices__list--dropdown,
+.filament-forms-date-time-picker-component button,
+.filament-forms-date-time-picker-component [x-ref="picker"],
+button.filament-button,
+a.filament-button,
+button.filament-forms-toggle-component,
+button.filament-forms-toggle-component span,
+div.filament-tables-container,
+.filament-tables-checkbox-cell input[type="checkbox"],
+.filament-tables-search-input input,
+.filament-tables-pagination-records-per-page-selector select,
+.filament-tables-pagination .filament-tables-pagination-item,
+.filament-tables-pagination [class*="rounded"],
+button.filament-icon-button,
+.filament-global-search-input input,
+a.filament-icon-button {
+    border-radius: 2px;
+}
+
+div[class*="rounded"],
+ul[class*="rounded"] {
+    border-radius: 2px;
+}
+
+.filament-forms-select-component .choices__inner,
+.filament-forms-select-component .choices__list.choices__list--dropdown,
+.filament-forms-date-time-picker-component [x-ref="picker"] {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
